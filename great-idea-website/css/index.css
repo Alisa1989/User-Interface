@@ -72,67 +72,80 @@ body {
 a {
 	color: rgb(128, 119, 119);
 	text-decoration: none;
+	padding: 20px;
 }
 
+.logo {
+	padding: 0px 20px;
+}
 header {
-	display: inline-block;
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
 h2 {
-	text-align: center;
-	float: left;
+
+	font-size: 50px;
+}
+
+button {
+	background-color: white;
+	border-color: black;
+	border-width: 1px;
+	padding: 2px 30px;
+	font-size: 12px;
+}
+
+.heading {
+	display: block;
+	border-bottom: 1px solid;
+	padding: 20px 0px 20px 0px;
 }
 
 .first-section {
 	display: inline-block;
-}
-
-.second-section {
-	display: inline-block;
-}
-
-.first-paragraph {
-	float: left;
-	width: 30%;
-}
-
-.second-paragraph {
-	float: right;
-	width: 30%;
-}
-
-.third-paragraph {
-	float: left;
-	width: 30%;
-}
-.fourth-paragraph {
-	float: center; 
-	width: 30%;
-}
-.fifth-paragraph {
-	float: right;
-	width: 30%;
+	width: 45%;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .circle-img {
-	width: 40%;
-	float: right;
+	
 }
 
 .middle-img {
-	padding: 20px 0px;
+	display: block;
+	width: 99%;
+}
+
+
+.the-duo {
+	display: inline-block;
+	width: 49%;
+	padding: 30px 10px 30px 10px;
+}
+.the-trio {
+	display: inline-block;
+	width: 33%; 
+	padding: 20px 10px 20px 10px;
 }
 
 footer {
-	float: left;
-	width: 20%;
+	display: block;
+	border-top: 1px solid;
+	padding: 20px 0px 20px 0px;
 }
 
-address {
-	padding: 20px;
+.the-bottom {
+	display: block;
+	border-top: 1px solid;
 }
+
 
 .copyright {
 	padding: 20px;
 	text-align: center;
+	width: 50%;
+	margin: auto;
 }
